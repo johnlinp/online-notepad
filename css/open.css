@@ -1,0 +1,88 @@
+body { 
+    background-color: #C0C0C0;
+}
+
+#container {
+    width: 100%;
+}
+
+#container div {
+    position: relative;
+}
+
+#top {
+    background-image: url(../fig/open_top.png); 
+    width: 625px;
+    height: 97px;
+}
+
+#left {
+    background-image: url(../fig/open_left.png); 
+    width: 168px;
+    height: 249px;
+    float: left;
+}
+
+#right {
+    background-image: url(../fig/open_right.png); 
+    width: 9px;
+    height: 249px;
+    float: left;
+}
+
+#bottom {
+    background-image: url(../fig/open_bottom.png); 
+    top: 249px;
+    width: 625px;
+    height: 89px;
+}
+
+#files {
+    background-color: #FDFDFD;
+    width: 448px;
+    height: 249px;
+    float: left;
+    overflow: scroll;
+}
+
+#filename {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 13px;
+    left: 216px;
+    border: none;
+    width: 151px;
+    height: 19px;
+}
+
+#button {
+    background: url(../fig/open_button.png) no-repeat;
+    border: none;
+    position: absolute;
+    top: 42px;
+    left: 395px;
+    width: 104px;
+    height: 26px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a img {
+    border: 0 none;
+}
+
